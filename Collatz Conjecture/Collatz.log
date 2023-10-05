@@ -1,0 +1,281 @@
+commit 1a9c5f1ba3fce8d82446f58d18ad9b429b86e7a7
+Merge: 7c6a069 e3559ad
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Oct 2 19:43:25 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Confirm The Expected Successes - Make Test
+    
+    See merge request magretadekunle/collatz!13
+
+commit e3559adcfe43844fbf71286b533cb27dd9463090
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Mon Oct 2 14:39:32 2023 -0500
+
+    confirm the expected successes -make test
+
+commit 7c6a0694e0928bfa292999d6d85208808d4a777b
+Merge: ce605df b43ba3e
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 28 18:15:33 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    corrections to collatz
+    
+    See merge request magretadekunle/collatz!12
+
+commit b43ba3e26a223e92ffabae6be571d2baf51d5017
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 28 13:13:30 2023 -0500
+
+    corrections to collatz
+
+commit ce605dfb0a403336b86d8aa5745ff94eb52d6f2b
+Merge: 0d5ee4d 48ac4d4
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 28 18:09:30 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Testing branch
+    
+    See merge request magretadekunle/collatz!11
+
+commit 48ac4d4e84db4b5dd71128d22ae61915eab76bff
+Merge: d59460e 0d5ee4d
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 28 18:07:15 2023 +0000
+
+    Merge branch 'main' into 'TestingBranch'
+    
+    # Conflicts:
+    #   Collatz.html
+    #   Collatz.log
+    #   TestCollatz.out
+
+commit 0d5ee4dd1176e292bf3b3465f0c78e54a809ca25
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 28 13:04:44 2023 -0500
+
+    Updates
+
+commit d59460eb754a974dd178d4c69ad40e60047b4d82
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 28 12:57:27 2023 -0500
+
+    Updates
+
+commit aa82a85eb86f885e12b5d6f51a0df0493bb1b6f9
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 28 12:49:54 2023 -0500
+
+    Update with inline comments
+
+commit 4d83df42a9224785c958913b7081f23782280353
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 28 12:45:51 2023 -0500
+
+    Update with inline comments
+
+commit 9bbefeb71a055ebb553557085397eff4d359b052
+Merge: 0b57cf9 b0dde63
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 28 17:35:20 2023 +0000
+
+    Merge branch 'new_branch' into 'main'
+    
+    optimized with a cache
+    
+    See merge request magretadekunle/collatz!9
+
+commit b0dde637966f87496236debea8c74efc0e8f9d47
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Thu Sep 28 12:33:46 2023 -0500
+
+    optimized with a cache
+
+commit 0b57cf924390f599559487276a478bda481f4434
+Merge: a8ae084 41a87e4
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Sep 27 22:00:59 2023 +0000
+
+    Merge branch 'new_branch' into 'main'
+    
+    ensuring 100% coverage on unit test
+    
+    See merge request magretadekunle/collatz!8
+
+commit 41a87e4018d28dc7a0a49b0cf75c349032bebefb
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Wed Sep 27 16:58:40 2023 -0500
+
+    ensuring 100% coverage on unit test
+
+commit a8ae0849bb36729351931b4dc060402e157fcd17
+Merge: 79fb7db bc6174d
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Sep 27 21:53:13 2023 +0000
+
+    Merge branch 'new_branch' into 'main'
+    
+    we refactor the cache method to optimize code
+    
+    See merge request magretadekunle/collatz!7
+
+commit bc6174dfb0edd04824b73e989f4b70af4652b40c
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Wed Sep 27 16:51:26 2023 -0500
+
+    we factor the cache method to optimize code
+
+commit 79fb7dbabb314fa156c556b060e57550d8413681
+Merge: 057cdbb 8dab6d0
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Sep 27 21:41:52 2023 +0000
+
+    Merge branch 'new_branch' into 'main'
+    
+    New branch
+    
+    See merge request magretadekunle/collatz!6
+
+commit 8dab6d03d9d66a748edcbc3a37d7fdd780168a75
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Wed Sep 27 16:39:21 2023 -0500
+
+    refactor collatz method by defining dict in cache
+
+commit 2c7b6aacbef6688c67c15f1a6c921cf96f91782c
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Tue Sep 26 13:38:20 2023 -0500
+
+    add a dictionary
+
+commit c8a2a25bd0f9e46c03431d65eb88773f592d016c
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Sat Sep 23 10:17:09 2023 -0500
+
+    starting cache function
+
+commit 057cdbb148eded8c5ca2a0fd09c1cea1ccbf23bc
+Merge: 37a3239 6779044
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 21 20:28:25 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Testing branch - Corrected amount of acceptance tests
+    
+    See merge request magretadekunle/collatz!5
+
+commit 677904414888210970dcf7d1826583f5cc873386
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 21 15:25:23 2023 -0500
+
+    Corrected amount of acceptance tests
+
+commit fc276cf447f315667b011e767a7929c978b46ae6
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 21 14:56:39 2023 -0500
+
+    Add 1up to 200 lines of acceptance test (was over)
+
+commit 37a32395705beb15f36d06d1e36c248e8a98db3f
+Merge: 33e9bdf 25fb61b
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 21 15:39:52 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Confirm successes of unit tests & acceptance tests
+    
+    See merge request magretadekunle/collatz!4
+
+commit 25fb61bbf19c0bc134af7bb165a4b9a3f3314e0c
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 21 10:37:26 2023 -0500
+
+    Confirm successes of unit tests & acceptance tests
+
+commit 33e9bdfecc715d9cd5fa0dbb53d3eac572a32eae
+Merge: 6467961 01e0828
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Sep 21 15:04:59 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Confirm the Expected Failures on UnitTests
+    
+    See merge request magretadekunle/collatz!3
+
+commit 01e08286a14007b22f0361f0fc2c186003e11479
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 21 10:01:34 2023 -0500
+
+    Implement collatz_eval() & all unit test pass
+
+commit 10fd3a92af28a4498488d362e3649096362c1dbe
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Thu Sep 21 09:56:45 2023 -0500
+
+    Implement collatz_eval() & all unit tests passing
+
+commit a120d8678d86e7eddd84c2481b928f7227404af1
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Sun Sep 17 13:42:56 2023 -0500
+
+    More unin test and confirm the expected failures
+
+commit b5f20638a47f8515d2b115449f22f5c4b749a06e
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Fri Sep 15 17:23:16 2023 -0500
+
+    confirm the expected failures on UnitTests
+
+commit 64679615558714581fd951723bf991389166e27e
+Merge: 34a8c35 4ce034b
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Sep 13 14:53:34 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Run acceptance tests [make test]
+    
+    See merge request magretadekunle/collatz!2
+
+commit 4ce034bb2c2cb53ff5cacf68fc42bca826edbe95
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Wed Sep 13 09:50:45 2023 -0500
+
+    Run acceptance tests [make test
+
+commit 34a8c3525a0475372298de1f84315be50ec784c4
+Merge: 78efeb8 7f550cd
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Sep 11 20:09:05 2023 +0000
+
+    Merge branch 'TestingBranch' into 'main'
+    
+    Fix given unit tests confirm the expected failures
+    
+    See merge request magretadekunle/collatz!1
+
+commit 7f550cdb12f8f48398bbc664d735108ae6e5b5c3
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Mon Sep 11 15:04:41 2023 -0500
+
+    Fix given unit tests confirm the expected failures
+
+commit 78efeb8a1857761ce80abf68443520cc077296ec
+Author: Fares Fraij <fares@cs.utexas.edu>
+Date:   Wed Aug 16 12:20:29 2023 -0500
+
+    first commit
+
+commit 9c55325c589352ed4848ece248778f13b9bc0d81
+Author: Fares Fraij <fares@utexas.edu>
+Date:   Wed Aug 16 16:53:30 2023 +0000
+
+    Initial commit
