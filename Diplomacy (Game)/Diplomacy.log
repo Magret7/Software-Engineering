@@ -1,0 +1,141 @@
+commit 776e30c06b55686d2f10e9429315c5f0badf005a
+Merge: 2c6f8d3 58b2196
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Tue Nov 7 00:06:41 2023 +0000
+
+    Merge branch 'testingBranch' into 'main'
+    
+    Final Changes
+    
+    See merge request magretadekunle/diplomacy!11
+
+commit 58b219641c2457d0a4b7693361f9f5c9e3154b2b
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Mon Nov 6 18:05:40 2023 -0600
+
+    Final Changes
+
+commit 2c6f8d38d2692038fb817a0cafd473e24e972693
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Tue Oct 31 17:54:28 2023 +0000
+
+    Delete test_file.txt
+
+commit 2e885c685a986b250b946645c55ce3f7314662be
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Tue Oct 31 12:45:13 2023 -0500
+
+    try gitlog
+
+commit 7f57c088ed379e87f850cb9d898e559cffaaff38
+Merge: 22d4622 56c73e9
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Oct 30 20:29:11 2023 +0000
+
+    Merge branch 'new_war_branch' into 'main'
+    
+    New war branch
+    
+    See merge request magretadekunle/diplomacy!6
+
+commit 56c73e93c39afa542c5d94af7d76b2436408a1d0
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Mon Oct 30 15:26:55 2023 -0500
+
+    checking for gitlog
+
+commit bdeca19b3f30b69d62bbe0030f51aa31b7410083
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Mon Oct 30 15:25:11 2023 -0500
+
+    checking for gitlog
+
+commit 22d4622462bae528f61de598951105d154acced9
+Merge: 8c3b837 7b8ace4
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Oct 30 20:06:48 2023 +0000
+
+    Merge branch 'war_branch' into 'main'
+    
+    added unit tests
+    
+    See merge request magretadekunle/diplomacy!4
+
+commit 7b8ace46e5d53a79ae36ab03f3332eda06d5ae4e
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Mon Oct 30 15:03:10 2023 -0500
+
+    added unit tests
+
+commit 8c3b837fd32d78146e5fed1bfd52b36cfd6084d2
+Merge: a3d845b 7f2aa46
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Oct 30 18:29:46 2023 +0000
+
+    Merge branch 'testingBranch' into 'main'
+    
+    Testing branch
+    
+    See merge request magretadekunle/diplomacy!3
+
+commit 7f2aa46b0e8daadf79e2bf8842f9ba2c2d1923d4
+Merge: 952124e a3d845b
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Mon Oct 30 18:28:50 2023 +0000
+
+    Merge branch 'main' into 'testingBranch'
+    
+    # Conflicts:
+    #   TestDiplomacy.py
+
+commit 952124e576e355c18f0cceebac48648267df78a5
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Mon Oct 30 13:27:40 2023 -0500
+
+    Fixed Errors in TestDiplomacy.py
+
+commit b6d0cea62bbf180069df8c2a28335b7fbd86aa7b
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Sat Oct 28 15:28:55 2023 -0500
+
+    Implmenting  & Updating Unit Test
+
+commit a3d845beed3f51e128cba32f489219e2f1034583
+Merge: ffe8395 a482064
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Thu Oct 26 15:30:52 2023 +0000
+
+    Merge branch 'war_branch' into 'main'
+    
+    add acceptance test
+    
+    See merge request magretadekunle/diplomacy!2
+
+commit a48206404b3593fbc7d587318d98f54c7216207e
+Author: James Grabois <james.grabois@gmail.com>
+Date:   Thu Oct 26 10:29:05 2023 -0500
+
+    add acceptance test
+
+commit ffe8395186dde1ea5f26a2022115b5a105d71a06
+Merge: 84a2ac4 da6e661
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Oct 25 21:49:06 2023 +0000
+
+    Merge branch 'testingBranch' into 'main'
+    
+    Confirm the expected successes
+    
+    See merge request magretadekunle/diplomacy!1
+
+commit da6e66113c0ec3c4b4904a1635c1c0091cdf5da8
+Author: Magret Adekunle <Magretadekunle@gmail.com>
+Date:   Wed Oct 25 16:47:39 2023 -0500
+
+    Confirm the expected successes
+
+commit 84a2ac41abda04ff7bf96ef342461d179d11b737
+Author: Magret Adekunle <magretadekunle@gmail.com>
+Date:   Wed Oct 18 19:03:00 2023 +0000
+
+    Initial commit

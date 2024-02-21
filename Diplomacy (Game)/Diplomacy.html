@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Diplomacy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Diplomacy</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/magretadekunle/.git/diplomacy/Diplomacy.py">/Users/magretadekunle/.git/diplomacy/Diplomacy.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;---------------------------<br>
+#&nbsp;projects/diplomacy/Diplomacy.py<br>
+#&nbsp;Copyright&nbsp;(C)<br>
+#&nbsp;Glenn&nbsp;P.&nbsp;Downing<br>
+#&nbsp;---------------------------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-city_with_armies"><strong>city_with_armies</strong></a>(current_standing)</dt><dd><tt>Current_standing&nbsp;is&nbsp;list&nbsp;of&nbsp;the&nbsp;curent&nbsp;army&nbsp;and&nbsp;it&nbsp;location<br>
+Will&nbsp;find&nbsp;the&nbsp;cities&nbsp;with&nbsp;more&nbsp;than&nbsp;2&nbsp;armies&nbsp;and&nbsp;army&nbsp;battleing<br>
+Return&nbsp;cities_with_armies&nbsp;&amp;&nbsp;battling</tt></dd></dl>
+ <dl><dt><a name="-diplomacy_eval"><strong>diplomacy_eval</strong></a>(i)</dt><dd><tt>i&nbsp;a&nbsp;list&nbsp;of&nbsp;inputs<br>
+return&nbsp;a&nbsp;list&nbsp;of&nbsp;the&nbsp;outputs&nbsp;with&nbsp;the&nbsp;given&nbsp;inputs</tt></dd></dl>
+ <dl><dt><a name="-diplomacy_print"><strong>diplomacy_print</strong></a>(w, v)</dt><dd><tt>print&nbsp;a&nbsp;list&nbsp;of&nbsp;inputs<br>
+w&nbsp;a&nbsp;writer<br>
+v&nbsp;is&nbsp;the&nbsp;outcome</tt></dd></dl>
+ <dl><dt><a name="-diplomacy_read"><strong>diplomacy_read</strong></a>(s)</dt><dd><tt>read&nbsp;a&nbsp;list&nbsp;of&nbsp;string<br>
+in&nbsp;a&nbsp;list<br>
+return&nbsp;every&nbsp;input&nbsp;line&nbsp;has&nbsp;three&nbsp;elements&nbsp;separated&nbsp;by&nbsp;spaces:&nbsp;an&nbsp;army,&nbsp;a&nbsp;location,&nbsp;and&nbsp;an&nbsp;action.&nbsp;<br>
+return&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;inputs,&nbsp;representing&nbsp;all&nbsp;of&nbsp;the&nbsp;inputs</tt></dd></dl>
+ <dl><dt><a name="-diplomacy_solve"><strong>diplomacy_solve</strong></a>(r, w)</dt><dd><tt>r&nbsp;a&nbsp;reader<br>
+w&nbsp;a&nbsp;writer</tt></dd></dl>
+ <dl><dt><a name="-surviving_armies"><strong>surviving_armies</strong></a>(outputs, total_of_support, loaded_city, fighting, current_support, max_support)</dt><dd><tt>total_of_support&nbsp;is&nbsp;a&nbsp;dict&nbsp;of&nbsp;all&nbsp;armies&nbsp;with&nbsp;support<br>
+loaded_city&nbsp;is&nbsp;a&nbsp;list&nbsp;of&nbsp;city&nbsp;in&nbsp;which&nbsp;a&nbsp;battle&nbsp;will&nbsp;occur<br>
+fighting&nbsp;is&nbsp;a&nbsp;list&nbsp;of&nbsp;army&nbsp;that&nbsp;will&nbsp;go&nbsp;into&nbsp;battle<br>
+current_support&nbsp;is&nbsp;the&nbsp;army&nbsp;that&nbsp;are&nbsp;dealing&nbsp;with&nbsp;any&nbsp;support&nbsp;in&nbsp;certain&nbsp;city<br>
+Outputs&nbsp;is&nbsp;the&nbsp;current&nbsp;list&nbsp;of&nbsp;oytptus&nbsp;that&nbsp;we&nbsp;are&nbsp;updating&nbsp;<br>
+Cheking&nbsp;If&nbsp;an&nbsp;army&nbsp;is&nbsp;battling&nbsp;and&nbsp;update&nbsp;all&nbsp;current&nbsp;location<br>
+Updating&nbsp;and&nbsp;returning&nbsp;Outputs</tt></dd></dl>
+ <dl><dt><a name="-update_Army_Loaction"><strong>update_Army_Loaction</strong></a>(current_support, outputs)</dt><dd><tt>current_support&nbsp;is&nbsp;the&nbsp;army&nbsp;that&nbsp;are&nbsp;dealing&nbsp;with&nbsp;with&nbsp;any&nbsp;support<br>
+Outputs&nbsp;is&nbsp;the&nbsp;current&nbsp;list&nbsp;of&nbsp;oytptus&nbsp;that&nbsp;we&nbsp;are&nbsp;updating&nbsp;<br>
+Cheking&nbsp;If&nbsp;an&nbsp;army&nbsp;is&nbsp;attacked&nbsp;while&nbsp;supporting&nbsp;another&nbsp;army,its&nbsp;support&nbsp;becomes&nbsp;invalid.<br>
+Updating&nbsp;and&nbsp;returning&nbsp;Outputs</tt></dd></dl>
+ <dl><dt><a name="-update_Loaction"><strong>update_Loaction</strong></a>(Army, outputs)</dt><dd><tt>Army&nbsp;is&nbsp;the&nbsp;army&nbsp;that&nbsp;are&nbsp;dealing&nbsp;with<br>
+Outputs&nbsp;is&nbsp;the&nbsp;current&nbsp;list&nbsp;of&nbsp;oytptus&nbsp;that&nbsp;we&nbsp;are&nbsp;updating&nbsp;<br>
+Cheking&nbsp;If&nbsp;an&nbsp;army&nbsp;is&nbsp;attacked&nbsp;durring&nbsp;battle<br>
+Updating&nbsp;and&nbsp;returning&nbsp;Outputs</tt></dd></dl>
+</td></tr></table>
+</body></html>
